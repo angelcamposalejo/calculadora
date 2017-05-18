@@ -8,13 +8,11 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE, LPTSTR cmdLine, int cmdSho
 
 void Calculadora::Window_Open(Win::Event& e)
 {
+	CalculadoraDual::Window_Open(*this, NULL);
 }
 
 void Calculadora::btCalcular_Click(Win::Event& e)
 {
-	const double x = tbxX.DoubleValue;
-	const double y = tbxY.DoubleValue;
-	const double resultado = x + y;
-	tbxResultado.DoubleValue = resultado;
+	CalculadoraDual::btCalcular_Click(*this, NULL);
 }
 

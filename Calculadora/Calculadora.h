@@ -1,6 +1,7 @@
 #pragma once  //______________________________________ Calculadora.h  
 #include "Resource.h"
-class Calculadora : public Win::Dialog
+#include "..\CalculadoraDual.h"
+class Calculadora : public Win::Dialog, public CalculadoraDual
 {
 public:
 	Calculadora()
@@ -42,6 +43,13 @@ protected:
 		tbxResultado.Font = fontArial014A;
 		lb1.Font = fontArial014A;
 		lb2.Font = fontArial014A;
+		//WintemplaDual:CalculadoraDual
+		this->pbtCalcular = &btCalcular;
+		this->ptbxX = &tbxX;
+		this->ptbxY = &tbxY;
+		this->ptbxResultado = &tbxResultado;
+		this->plb1 = &lb1;
+		this->plb2 = &lb2;
 	}
 	//_________________________________________________
 	void btCalcular_Click(Win::Event& e);

@@ -1,0 +1,7 @@
+LIBRARY	     "CalculadoraDual"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension
+

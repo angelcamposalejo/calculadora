@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculadora", "Calculadora\Calculadora.vcxproj", "{48BCBE8C-A79C-4364-8C1E-8AF762FD3E9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculadoraDual", "CalculadoraDual\CalculadoraDual.vcxproj", "{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{48BCBE8C-A79C-4364-8C1E-8AF762FD3E9E}.Release|x64.Build.0 = Release|x64
 		{48BCBE8C-A79C-4364-8C1E-8AF762FD3E9E}.Release|x86.ActiveCfg = Release|Win32
 		{48BCBE8C-A79C-4364-8C1E-8AF762FD3E9E}.Release|x86.Build.0 = Release|Win32
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Debug|x64.ActiveCfg = Debug|x64
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Debug|x64.Build.0 = Debug|x64
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Debug|x86.Build.0 = Debug|Win32
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Release|x64.ActiveCfg = Release|x64
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Release|x64.Build.0 = Release|x64
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Release|x86.ActiveCfg = Release|Win32
+		{E77D9424-D0CB-4F3A-AE3E-51C8ECA5FA4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
